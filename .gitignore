@@ -1,0 +1,57 @@
+# OS junk files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.factorypath
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts
+target/
+build/
+dist/
+out/
+.gradle/
+
+# Specific to this project structure
+# Backend (Java/Spring)
+backend/target/
+backend/*.log
+
+# Frontend (Flutter)
+frontend/.dart_tool/
+frontend/.pub/
+frontend/build/
+frontend/.packages
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend-otabek/
+
+# Local configuration
+*.local
+.env
+
+# Dependencies
+node_modules/
+package-lock.json
